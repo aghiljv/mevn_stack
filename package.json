@@ -4,7 +4,7 @@
   "description": "fullstack test",
   "main": "index.js",
   "scripts": {
-    "start": "node server/index.js",
+    "start": "node server/index.js --exec babel-node -e js",
     "dev": "nodemon server/index.js --exec babel-node -e js"
   },
   "author": "Aghil",
